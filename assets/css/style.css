@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'GildaDisplay-Regular';
+    src: url("../fonts/GildaDisplay-Regular.ttf");
+
+}
+
+@font-face {
+    font-family: 'MavenPro-Regular';
+    src: url("../fonts/MavenPro-Regular.ttf");
+}
+
+html {
+    font-size: 10px;
+}
+
+header {
+    background-color: #000;
+}
+
+header h1 {
+    font-family: 'mavenpro-Regular', serif;
+    display: inline-block;
+    width: 50px;
+    margin: 5px 10px;
+    color: #cccccc;
+    letter-spacing: 1rem;
+}
+
+header section.header__section__center {
+    width: 160px;
+    color: #fff;
+    margin: 100px auto;
+    background-image: linear-gradient(to top right, #8507e1, #194894, #3dc8d5);
+}
+
+header section.header__section__center:hover {
+    background-image: linear-gradient(to top right, #3dc8d5, #194894, #8507e1);
+}
+
+header section.header__section__center h2 {
+    text-align: left;
+    font-size: 4rem;
+    padding: 10px 5px;
+    font-family: 'gildadisplay-regular', serif;
+}
+
+header section.header__section__center p {
+    text-align: center;
+    font-family: 'mavenpro-Regular', serif;
+    padding: 5px;
+}
+
+header nav ul {
+    text-align: right;
+    padding: 20px 10px;
+    font-family: 'mavenpro-Regular', serif;
+}
+
+header nav ul li {
+    padding: 5px;
+}
+
+header nav ul li.header__nav__projects {
+    text-transform: uppercase;
+}
+
+header nav ul li a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: white;
+}
+
+main {
+    background-image: url("https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg");
+    background-position: top 12vh left 10vw;
+    background-repeat: no-repeat;
+    background-size: 70vw;
+}
+
+main section.main__section__intro {
+    display: inline-block;
+    width: 50vw;
+}
+
+main section h1 {
+    font-size: 5rem;
+    margin: 20vh auto 5vh 10vw;
+}
+
+main section.main__section__intro p {
+    font-family: 'mavenpro-Regular', serif;
+    word-spacing: 0.3rem;
+    line-height: 1.3rem;
+    font-size: 1.2rem;
+}
+
+main section.main__section__intro p {
+    margin: 5vh auto auto 10vw;
+}
+
+main section p.main__section__pprojects {
+    margin: 2vh auto 20vh 10vw;
+}
+
+main section.main__section__project1,
+main section.main__section__project2,
+main section.main__section__project3 {
+    width: 100vw;
+}
+
+main section img {
+    display: block;
+    width: 70vw;
+    border-radius: 5px;
+    margin: 1vh auto;
+}
+
+main section h2 {
+    font-size: 3rem;
+    display: inline-block;
+    width: 70vw;
+    margin: 2vh 15vw 1vh 15vw;
+}
+
+main section p.main__section__summary {
+    font-family: 'mavenpro-Regular', serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    word-spacing: 0.1rem;
+    margin: auto 15vw 20vh 15vw;
+}
